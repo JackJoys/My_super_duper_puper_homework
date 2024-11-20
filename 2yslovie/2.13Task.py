@@ -1,0 +1,7 @@
+N = int(input())
+M = int(input())
+x=int(input())
+y= int(input())
+N1=min(M, N)
+M1=max(M, N)
+print(min(N1-x, x, y, M1-y))
