@@ -1,0 +1,8 @@
+ch1= int(input())
+m1 = int(input())
+sec1 = int(input())
+ch2= int(input())
+m2 = int(input())
+sec2 = int(input())
+sec = abs(ch1 * 3600 + m1*60 + sec1 - ch2*3600- m2*60 - sec2)
+print(sec)
